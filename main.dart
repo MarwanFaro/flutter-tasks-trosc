@@ -1,18 +1,20 @@
-import 'package:day5/day5/day5.dart';
 import 'package:flutter/material.dart';
+import 'package:login_ui/login.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Day5()
+   
+      home:Login() ,
     );
   }
 }
+
